@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+
+<title >Desafio 1</title>
+
+<head>
+<h1 style="color:green; text-align:center;">
+Desafio I:
+</h1>
+</head>
+
+
+<body style="background-color:grey;">
+
+<p style="color:black; text-align:center" " > 1. "Crie um aplicativo Web que possibilite gerenciar uma lista de tarefas pendentes." </p>
+<p style="color:black; text-align:center" " > 2. "Este aplicativo deve possibilitar a inclusão, alteração, exclusão e a marcação da tarefa como concluída." </p>
+<p style="color:black; text-align:center" " > 3. "Tecnologias Utilizadas: Html & CSS e Java Script."</p>
+<br>
+<b><p style="color:black; font-family:courier; text-align:center" > ATIVIDADE: </p></b><br>
+
+</body>
+
+<body>
+
+<form>
+
+<center><button onclick="addTarefa()"> Inclusão: <div class="right menu">
+    <div class="item">
+      <div class="ui icon input"></button>
+
+        <input type="text" id=add_tarefa placeholder="Inclua alguma tarefa...">
+        
+        <i class="include link icon"></i>
+      </div>
+    </div></center>
+
+<p></p>
+
+<center><button onclick="removeTarefa()"> Exclusão: <div class="right menu">
+    <div class="item">
+      <div class="ui icon input"></button>
+
+        <input type="text" id="remover_tarefa" placeholder="Exclua alguma tarefa...">
+
+        <i class="exclude link icon"></i>
+      </div>
+    </div></center>
+
+<p></p>
+
+<center><button onclick="alterTarefa()"> Alterar: <div class="right menu">
+    <div class="item">
+      <div class="ui icon input"></button>
+
+        <input type="text" id="alterar_tarefa" placeholder="Altere alguma tarefa..."></center>
+
+      	<center> <i class="alter link icon"></i>
+      </div>
+    </div></center>
+<br>
+<br>	
+<br>
+<br>
+
+<center><button onclick="listarTarefa()"> Listar: <div class="right menu">
+    <div class="item">
+      <div class="ui icon input"></button></center>
+
+<p></p>
+
+<br>
+
+  <center><input type="checkbox" name="" value=""></center><br>
+  <center><input type="checkbox" name="" value=""></center><br>
+  <center><input type="checkbox" name="" value="" checked></center><br><br>
+  <center><button onclick="concluirTarefa()"> Confirmar tarefa <div class="right menu"></button></center>
+
+</form>
+
+<script>
+
+var lista= ["addTarefa"]
+var newlista = ["ass","d","asdf"]
+
+function addTarefa() {
+	//var b = document.getElementById("add_tarefa").value;
+	//var a = document.getElementById("lista_tarefa").innerHTML;
+	//newlista.push(a);
+	//var c = a + "<li>" + b + "<li>"
+	//document.getElementById("lista_tarefa").innerHTML = c
+	//console.log(newlista);
+
+}
+
+function alterarTarefa() {
+	//var lista = document.getElementById("lista_tarefa").innerHTML;
+ 	//document.getElementById("lista_tarefa").innerHTML;
+	//console.log(lista);
+}
+
+function removeTarefa() {
+	
+}
+
+function listarTarefa() {
+	//var lista = document.getElementById("lista_tarefa").innerHTML;
+
+	//console.log(lista)
+
+
+}
+
+</script>
+
+</body>	
+
+</html>
